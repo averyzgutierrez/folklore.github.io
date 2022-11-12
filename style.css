@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+
+
+canvas {
+  display: block;
+}
+
+button:hover {
+  color: rgb(55, 55, 55);
+  background-color: rgba(191, 235, 159, 0.8);
+  width: 256px;
+  height: 52px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.container {
+  text-align: center;
+  height: 0vh;
+}
+
+.sketchy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
